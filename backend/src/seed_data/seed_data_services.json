@@ -1,0 +1,72 @@
+[
+  {
+    "id": "3f2504e0-4f89-11d3-9a0c-0305e82c3301",
+    "name": "Consult",
+    "description": "Comprehensive eye examination to assess vision and eye health."
+  },
+  {
+    "id": "9e107d9d-3721-4b5f-9b2e-2b5c5c5c5c5c",
+    "name": "Lens Purchase",
+    "description": "Purchase of prescription eyeglasses or contact lenses."
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "name": "Therapy",
+    "description": "Vision therapy sessions to improve visual skills and processing."
+  },
+  {
+    "id": "c9bf9e57-1685-4c89-bafb-ff5af830be8a",
+    "name": "Follow Up",
+    "description": "Follow-up appointments to monitor treatment progress."
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "name": "Pediatric Exam",
+    "description": "Specialized eye exams for children to assess vision development."
+  },
+  {
+    "id": "987f6543-e21b-43d2-b321-123456789abc",
+    "name": "Glaucoma Screening",
+    "description": "Screening for glaucoma to detect early signs of the disease."
+  },
+  {
+    "id": "456e7890-e12b-34d5-c678-9876543210ab",
+    "name": "Retinal Imaging",
+    "description": "Advanced imaging of the retina to diagnose and monitor eye conditions."
+  },
+  {
+      "id": "789a0123-f45b-67d8-e901-234567890abc",
+      "name": "Emergency Eye Care",
+      "description": "Immediate care for eye injuries or sudden vision changes."
+  },
+  {
+      "id": "321b6543-c21b-43d2-b321-abcdef123456",
+      "name": "Contact Lens Fitting",
+      "description": "Fitting and training for contact lens wearers."
+  },
+  {
+      "id": "654c7890-d12b-34d5-c678-fedcba987654",
+      "name": "Low Vision Rehabilitation",
+      "description": "Services to assist patients with significant vision loss."
+  },
+  {
+    "id": "852e9630-a12b-34d5-c678-1234abcd5678",
+    "name": "Cataract Evaluation",
+    "description": "Assessment and management of cataracts affecting vision."
+  },
+  {
+    "id": "741f8520-b12b-34d5-c678-8765dcba4321",
+    "name": "Dry Eye Treatment",
+    "description": "Evaluation and treatment of dry eye syndrome."
+  },
+  {
+    "id": "963a7410-c12b-34d5-c678-1122aabb3344",
+    "name": "LASIK Consultation",
+    "description": "Consultation for laser eye surgery candidates."
+  },
+  {
+    "id": "159b7530-d12b-34d5-c678-5566ccdd7788",
+    "name": "Visual Field Testing",
+    "description": "Testing to assess peripheral vision and detect visual field defects."
+  }
+]

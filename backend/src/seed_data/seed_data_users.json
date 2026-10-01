@@ -1,0 +1,106 @@
+[
+      {
+        "id": "550e8400-e29b-41d4-a716-446655440000",
+        "email": "james@gmail.com",
+        "password": "119c9ae6f9ca741bd0a76f87fba0b22cab5413187afb2906aa2875c38e213603",
+        "role": "patient",
+        "first_name": "James",
+        "last_name": "Smith",
+        "phone_number": "123-456-7890",
+        "birthday": "1985-01-15"
+      },
+      {
+        "id": "6f1e3b7a-9c3b-4d5a-8a2b-1c2d3e4f5g6h",
+        "email": "sarah@gmail.com",
+        "password": "d233633d9524e84c71d6fe45eb3836f8919148e4a5fc2234cc9e6494ec0f11c2",
+        "role": "patient",
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "phone_number": "234-567-8901",
+        "birthday": "1995-09-30"
+      },
+      {
+        "id": "7a8b9c0d-1e2f-3g4h-5i6j-7k8l9m0n1o2p",
+        "email": "mary@gmail.com",
+        "password": "6915771be1c5aa0c886870b6951b03d7eafc121fea0e80a5ea83beb7c449f4ec",
+        "role": "optician",
+        "first_name": "Mary",
+        "last_name": "Williams",
+        "phone_number": "345-678-9012",
+        "birthday": "1978-05-22",
+        "optician_id": "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r"
+      },
+      {
+        "id": "8p9q0r1s-2t3u-4v5w-6x7y-8z9a0b1c2d3e",
+        "email": "jack@gmail.com",
+        "password": "31611159e7e6ff7843ea4627745e89225fc866621cfcfdbd40871af4413747cc",
+        "role": "optician",
+        "first_name": "Jack",
+        "last_name": "Brown",
+        "phone_number": "456-789-0123",
+        "birthday": "1982-11-10",
+        "optician_id": "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s"
+      },
+      {
+        "id": "9f0e1d2c-3b4a-5g6h-7i8j-9k0l1m2n3o4p",
+        "email": "wtang44@gmail.com",
+        "password": "941db4f696932362540ebf33c0207ada930192e35857544d5fbc616b05182297",
+        "role": "patient",
+        "first_name": "Wang",
+        "last_name": "Tang",
+        "phone_number": "567-890-1234",
+        "birthday": "1990-07-07"
+      },
+      {
+        "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+        "email": "emma@gmail.com",
+        "password": "f4aa0655cdb8d4fcf6f719c7a786de10556783c70bfb8ef1d78923482fe6ebbc",
+        "role": "patient",
+        "first_name": "Emma",
+        "last_name": "Davis",
+        "phone_number": "678-901-2345",
+        "birthday": "1992-03-12"
+      },
+      {
+        "id": "2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
+        "email": "oliver@gmail.com",
+        "password": "7dfef7aed2105b7eceb4d34e1ad84fdad4693bd5de041e1b47079efeb6001a83",
+        "role": "patient",
+        "first_name": "Oliver",
+        "last_name": "Garcia",
+        "phone_number": "789-012-3456",
+        "birthday": "1988-06-25"
+      },
+      {
+        "id": "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+        "email": "ava@gmail.com",
+        "password": "bf446ea38129b6f1a1ada774c9130c81a33904db1ee88e5b557d76ef1fb5e22d",
+        "role": "optician",
+        "first_name": "Ava",
+        "last_name": "Martinez",
+        "phone_number": "890-123-4567",
+        "birthday": "1980-09-15",
+        "optician_id": "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t"
+      },
+      {
+        "id": "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
+        "email": "liam@gmail.com",
+        "password": "f73137d930c31d188d901d57d78c13c88458d61600d1355d28c8841d590a6d69",
+        "role": "optician",
+        "first_name": "Liam",
+        "last_name": "Hernandez",
+        "phone_number": "901-234-5678",
+        "birthday": "1975-12-05",
+        "optician_id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u"
+      },
+      {
+        "id": "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t",
+        "email": "sophia@gmail.com",
+        "password": "fc5a299cd6cd644f40bdcc8f7ae00e89a4ae4fbc44031c4bc27e54dd4bcb9773",
+        "role": "patient",
+        "first_name": "Sophia",
+        "last_name": "Lopez",
+        "phone_number": "012-345-6789",
+        "birthday": "1997-11-20"
+      }
+  ]

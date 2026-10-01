@@ -1,0 +1,98 @@
+[
+      {
+        "id": "3f2504e0-4f89-11d3-9a0c-0305e82c3301",
+        "name": "Downtown Eye Clinic",
+        "description": "Leading provider of comprehensive eye care services in the downtown area, offering advanced diagnostic tools, personalized treatment plans, and a wide range of vision care services.",
+        "address": "123 Main St, Downtown City, DC 20001",
+        "contact": "555-123-4567",
+        "opticians": ["1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p"]
+      },
+      {
+        "id": "9e2e2c1f-2c1f-4e2e-9e2e-9e2e2c1f9e2e",
+        "name": "Uptown Vision Center",
+        "description": "Comprehensive eye care services in the uptown area, specializing in pediatric eye exams, contact lens fittings, and advanced retinal imaging to ensure optimal vision health for all ages.",
+        "address": "456 Elm St, Uptown City, UC 30002",
+        "contact": "222-765-4325",
+        "opticians": ["2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q"]
+      },
+      {
+        "id": "7d44f6a4-2c1f-4e2e-9e2e-7d44f6a47d44",
+        "name": "Suburban Optometry",
+        "description": "Providing quality eye care services in suburban communities, including glaucoma screenings, low vision rehabilitation, and emergency eye care to address urgent vision needs.",
+        "address": "789 Pine St, Suburbia, SB 40003",
+        "contact": "24354-245-231",
+        "opticians": ["3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r"]
+      },
+      {
+        "id": "2c1f9e2e-2c1f-4e2e-9e2e-2c1f9e2e2c1f",
+        "name": "Cityside Eye Care",
+        "description": "Cityside Eye Care offers a full spectrum of eye care services, from routine eye exams to specialized treatments for various eye conditions, utilizing state-of-the-art technology and a patient-centered approach.",
+        "address": "321 Oak St, Cityside, CS 50004",
+        "contact": "6578-677-09",
+        "opticians": ["4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s"]
+      },
+      {
+        "id": "1b4e28ba-2fa1-11d2-883f-0016d3cca427",
+        "name": "Lakeside Vision Clinic",
+        "description": "Lakeside Vision Clinic is dedicated to providing exceptional eye care services, including cataract evaluations, dry eye treatments, and vision therapy, in a serene lakeside setting for a comfortable patient experience.",
+        "address": "654 Maple St, Lakeside, LC 60005",
+        "contact": "65-411-2312",
+        "opticians": ["5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t"]
+      },
+      {
+        "id": "16fd2706-8baf-433b-82eb-8c7fada847da",
+        "name": "Greenwood Eye Specialists",
+        "description": "Greenwood Eye Specialists provides expert eye care services, including pediatric exams, emergency eye care, and low vision rehabilitation, with a focus on personalized treatment and advanced diagnostic techniques.",
+        "address": "987 Birch St, Greenwood, GC 70006",
+        "contact": "34634-345-355",
+        "opticians": ["6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u"]
+      },
+      {
+        "id": "6f9619ff-8b86-d011-b42d-00cf4fc964ff",
+        "name": "Harborview Optometry",
+        "description": "Harborview Optometry offers a wide range of eye care services, including comprehensive eye exams, lens purchases, and vision therapy, all delivered with a commitment to patient comfort and cutting-edge technology.",
+        "address": "159 Cedar St, Harborview, HC 80007",
+        "contact": "232-67-0990",
+        "opticians": ["7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v"]
+      },
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174000",
+        "name": "Mountainview Eye Care",
+        "description": "Mountainview Eye Care specializes in advanced eye care services, including glaucoma screenings, retinal imaging, and contact lens fittings, all provided in a state-of-the-art facility with a focus on patient-centered care.",
+        "address": "753 Spruce St, Mountainview, MC 90008",
+        "contact": "123-7555-9867",
+        "opticians": ["8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w"]
+      },
+      {
+        "id": "7e57d004-2b97-0e7a-b45f-5387367791cd",
+        "name": "Riverside Vision Specialists",
+        "description": "Riverside Vision Specialists is committed to delivering high-quality eye care services, including pediatric exams, emergency eye care, and low vision rehabilitation, utilizing the latest technology and a compassionate approach to patient care.",
+        "address": "852 Willow St, Riverside, RC 10009",
+        "contact": "33-68-687",
+        "opticians": ["9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x"]
+      },
+      {
+        "id": "1e7c9a3b-4a6b-4c8e-9f3d-2a5b6c7d8e9f",
+        "name": "Seaside Optometry Clinic",
+        "description": "Seaside Optometry Clinic provides a comprehensive range of eye care services, including comprehensive eye exams, lens purchases, and vision therapy, all delivered with a commitment to patient comfort and cutting-edge technology.",
+        "address": "951 Ocean St, Seaside, SC 11010",
+        "contact": "544-398345-44",
+        "opticians": ["0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y"]
+      },
+      {
+        "id": "2f8d0b4c-5b7c-5d9f-0a6e-3b7c8d9e0f1a",
+        "name": "Valleyview Eye Clinic",
+        "description": "Valleyview Eye Clinic offers specialized eye care services, including glaucoma screenings, retinal imaging, and contact lens fittings, all provided in a state-of-the-art facility with a focus on patient-centered care.",
+        "address": "357 Valley St, Valleyview, VC 12011",
+        "contact": "400897-34-122",
+        "opticians": ["1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z"]
+      },
+      {
+        "id": "3a9e1c5d-6c8d-6e0f-1b7d-4c8e9f0a1b2c",
+        "name": "Cedarwood Vision Center",
+        "description": "Cedarwood Vision Center is dedicated to providing exceptional eye care services, including cataract evaluations, dry eye treatments, and vision therapy, in a serene setting for a comfortable patient experience.",
+        "address": "258 Cedarwood St, Cedarwood, CC 13012",
+        "contact": "99-444-563",
+        "opticians": ["2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a"]
+      }
+    ]
