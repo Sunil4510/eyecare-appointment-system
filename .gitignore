@@ -49,3 +49,9 @@ Thumbs.db
 *.tmp
 *.temp
 .cache/
+
+# Internal interview presentation & speaking notes (kept locally)
+*.pptx
+PRESENTATION_GUIDE.md
+generate_deck.py
+
