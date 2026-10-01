@@ -8,6 +8,6 @@ import { IConfig } from "../types";
 
 export const getConfig = (): IConfig => {
   return {
-    backendURL: "http://localhost:3001",
+    backendURL: (import.meta as any).env?.VITE_BACKEND_URL || "http://localhost:3001",
   };
 };

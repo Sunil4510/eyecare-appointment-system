@@ -4,6 +4,7 @@
 [![React 19](https://img.shields.io/badge/React-19.1-61DAFB.svg?logo=react)](https://react.dev/)
 [![Express 5](https://img.shields.io/badge/Express-5.1-black.svg?logo=express)](https://expressjs.com/)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D22.0.0-339933.svg?logo=node.js)](https://nodejs.org/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?logo=docker)](https://www.docker.com/)
 [![Jest Tests](https://img.shields.io/badge/Jest%20Tests-17%2F17%20Passed-brightgreen.svg?logo=jest)](https://jestjs.io/)
 [![Vitest Tests](https://img.shields.io/badge/Vitest%20Tests-6%2F6%20Passed-brightgreen.svg?logo=vitest)](https://vitest.dev/)
 [![Build](https://img.shields.io/badge/Build-Passing-brightgreen.svg)]()
@@ -123,11 +124,35 @@ npm run test:frontend
 
 ## 🚀 Getting Started
 
-### Prerequisites
+You can run the entire application either using **Docker Compose (single command)** or **locally with Node.js**.
+
+---
+
+### Option A: 🐳 Run with Docker Compose (Fastest & Zero Setup)
+
+Ensure Docker Desktop is running, then run from the root directory:
+
+```bash
+docker compose up --build
+```
+
+- **Backend API**: Automatically starts at [http://localhost:3001](http://localhost:3001) (with built-in health check).
+- **Frontend SPA**: Automatically served via Nginx at [http://localhost:3000](http://localhost:3000).
+
+To stop the containers:
+```bash
+docker compose down
+```
+
+---
+
+### Option B: 💻 Run Locally with Node.js
+
+#### Prerequisites
 - **Node.js** >= 22.0.0
 - **npm** (included with Node)
 
-### 1. Installation (Single Command)
+#### 1. Installation (Single Command)
 From the root directory:
 ```bash
 npm run install:all
@@ -138,19 +163,19 @@ cd backend && npm install
 cd ../frontend && npm install
 ```
 
-### 2. Run All Tests
+#### 2. Run All Tests
 ```bash
 npm test
 ```
 *Runs backend Jest test suite and frontend Vitest suite in sequence.*
 
-### 3. Production Build Validation
+#### 3. Production Build Validation
 ```bash
 npm run build
 ```
 *Compiles backend TypeScript via `tsc` and bundles frontend via `vite build` with zero errors.*
 
-### 4. Start Development Servers
+#### 4. Start Development Servers
 In two separate terminals:
 
 **Terminal 1 (Backend API):**

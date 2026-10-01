@@ -16,8 +16,15 @@ import * as fs from "fs";
 export function getFileData(fileName: string) {
     const updatedFilePath = path.join(__dirname, `../app_data/app_data_${fileName}.json`);
     const seedFilePath = path.join(__dirname, `../seed_data/seed_data_${fileName}.json`);
-    const filePath = fs.existsSync(updatedFilePath) ? updatedFilePath : seedFilePath;
-    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    const fallbackSeedFilePath = path.resolve(process.cwd(), `src/seed_data/seed_data_${fileName}.json`);
+    
+    if (fs.existsSync(updatedFilePath)) {
+        return JSON.parse(fs.readFileSync(updatedFilePath, "utf-8"));
+    }
+    if (fs.existsSync(seedFilePath)) {
+        return JSON.parse(fs.readFileSync(seedFilePath, "utf-8"));
+    }
+    return JSON.parse(fs.readFileSync(fallbackSeedFilePath, "utf-8"));
 }
 
 import * as crypto from "crypto";
@@ -42,6 +49,7 @@ export function addNewDataToFile<T>(fileName: string, newData: T): void {
     }
     const filePath = path.join(appDataDir, `app_data_${fileName}.json`);
     const seedFilePath = path.join(__dirname, `../seed_data/seed_data_${fileName}.json`);
+    const fallbackSeedFilePath = path.resolve(process.cwd(), `src/seed_data/seed_data_${fileName}.json`);
 
     let data = [];
     if (fs.existsSync(filePath)) {
@@ -50,6 +58,8 @@ export function addNewDataToFile<T>(fileName: string, newData: T): void {
     } else if (fs.existsSync(seedFilePath)) {
         // If the file doesn't exist, load from the seed file
         data = JSON.parse(fs.readFileSync(seedFilePath, "utf-8"));
+    } else if (fs.existsSync(fallbackSeedFilePath)) {
+        data = JSON.parse(fs.readFileSync(fallbackSeedFilePath, "utf-8"));
     }
 
     // Append the new data to the array
